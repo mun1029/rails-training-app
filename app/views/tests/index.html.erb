@@ -1,0 +1,26 @@
+<!-- <div class="main">
+  <div class="name">
+    <p>あなたのお名前は？</p>
+    <input type="text" name="name" id="name-form"><br>
+    <input type="submit" value="次へ" class="next">
+  </div>
+  <div class="age">
+    <p>貴方の年齢は？</p>
+    <input type="text" name="age" id="age-form">
+    <input type="submit" value="送信" class="age-next">
+  </div>
+  <div class="name">
+    <p>貴方の名前は？</p>
+    <%= form_with url: "/tests", method: :post do |f| %>
+      <%= f.text_field :name , id: "name-form" %>
+      <%= f.submit '投稿する', class: "next" %>
+    <% end %>
+  </div>
+  <div class="age">
+    <p>貴方の年齢は？</p>
+    <%= form_with url: "/tests", method: :post do |f| %>
+      <%= f.text_field :age , id: "age-form" %>
+      <%= f.submit '投稿する', class: "age-next" %>
+    <% end %>
+  </div>
+</div> --> 
