@@ -1,3 +1,7 @@
+.main-rails {
+  display: none;
+}
+
 .name {
   display: block;
 }
