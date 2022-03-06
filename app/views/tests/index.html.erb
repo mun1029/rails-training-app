@@ -1,4 +1,6 @@
 <!-- <div class="main">
+
+  <%# Javasqriptがメイン %>
   <div class="name">
     <p>あなたのお名前は？</p>
     <input type="text" name="name" id="name-form"><br>
@@ -9,6 +11,8 @@
     <input type="text" name="age" id="age-form">
     <input type="submit" value="送信" class="age-next">
   </div>
+
+  <%# Railsがメイン %>
   <div class="name">
     <p>貴方の名前は？</p>
     <%= form_with url: "/tests", method: :post do |f| %>
